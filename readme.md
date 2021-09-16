@@ -26,3 +26,5 @@ In standard mode, set you n_train and a random seed for splitting dataset into t
 1. 5-repeated 5-fold CV: After performing 5 times "trainference_cv.py" (predefined_seed=1, ..., predefined_seed=5), run "repeated_cv_single_images.py" and in each filedialog, choose a CV results .txt-file (see step 4).
 This outputs e.g. "5_repeated_5_fold.txt"
    
+test
+   

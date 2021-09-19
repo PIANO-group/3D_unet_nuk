@@ -7,7 +7,7 @@
 * Only used on 64x64x32 dataset (first create a cropped dataset with repo "dataset_functions")
 * Make sure to have dirs "GT_masks" and "tumor_ROIs" in your dataset (see step 2 in deepMedic_nuk repo)
 * tumor_ROIs are used to compute the dice scores only within the confinement (to be able to compare results with SegmentationApplicationValidation)
-* To use predefined splits, set settings["mode"] to "predefined_splits" in config.py and make sure to have the .txt-files defining the splits in dir "splits" in your data_path
+* To use predefined splits, set settings["mode"] to "predefined_splits" in config.py and make sure to have the .txt-files defining the splits in dir "splits" in your data_path (copy the contents of e.g. the dir "heterogen" (dirs "seed_1" to "seed_5") found in the dir "make_cv_splits" from the databox "Conventional_methods_and_make_cv_splits" into an empty dir named "splits" in your data_path).
 * So far, CV was only used in mode "predefined_splits"
   
 
